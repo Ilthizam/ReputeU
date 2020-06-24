@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans|Open+Sans|Poppins&display=swap");
+
+body {
+  margin: 0;
+  margin-top: 81px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+.ui.button,
+.ui.text.container,
+.ui.header,
+.ui.input > input,
+.ui.list .list > .item .header,
+.ui.list > .item .header,
+.ui.steps .step .title,
+.ui.form input:not([type]),
+.ui.form input[type="date"],
+.ui.form input[type="datetime-local"],
+.ui.form input[type="email"],
+.ui.form input[type="number"],
+.ui.form input[type="password"],
+.ui.form input[type="search"],
+.ui.form input[type="tel"],
+.ui.form input[type="time"],
+.ui.form input[type="text"],
+.ui.form input[type="file"],
+.ui.form input[type="url"],
+.ui.menu,
+.ui.message .header,
+.ui.cards > .card > .content > .header,
+.ui.card > .content > .header,
+.ui.items > .item > .content > .header,
+.ui.statistics .statistic > .value,
+.ui.statistic > .value,
+.ui.statistics .statistic > .label,
+.ui.statistic > .label,
+.ui.accordion .title:not(.ui),
+.ui.modal > .header,
+.ui.popup > .header,
+.ui.search > .results .result .title,
+.ui.search > .results > .message .header,
+.ui.category.search > .results .category > .name {
+  font-family: "Nunito Sans", "Open Sans", "Poppins", "Helvetica Neue", Arial,
+    Helvetica, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+input:read-only {
+  cursor: not-allowed;
+}
+
+/* Margins */
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mt-3 {
+  margin-top: 3px !important;
+}
+
+.mt-7 {
+  margin-top: 7px !important;
+}
+
+.mt-12 {
+  margin-top: 12px !important;
+}
+
+.mt-14 {
+  margin-top: 14px !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-7 {
+  margin-bottom: 7px !important;
+}
+
+.mb-14 {
+  margin-bottom: 14px !important;
+}
+
+.mr-0 {
+  margin-right: 0 !important;
+}
+
+.mr-7 {
+  margin-right: 7px !important;
+}
+
+.mr-14 {
+  margin-right: 14px !important;
+}
+
+.ml-0 {
+  margin-left: 0 !important;
+}
+
+.ml-7 {
+  margin-left: 7px !important;
+}
+
+.ml-14 {
+  margin-left: 14px !important;
+}
+
+/* Paddings */
+
+.pl-0 {
+  padding-left: 0 !important;
+}
+
+.pl-7 {
+  padding-left: 7px !important;
+}
+
+.pl-14 {
+  padding-left: 14px !important;
+}
+
+.pr-0 {
+  padding-right: 0 !important;
+}
+
+.pr-7 {
+  padding-right: 7px !important;
+}
+
+.pr-14 {
+  padding-right: 14px !important;
+}
+
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+.pt-5 {
+  padding-top: 5px !important;
+}
+
+.pt-7 {
+  padding-top: 7px !important;
+}
+
+.pt-14 {
+  padding-top: 14px !important;
+}
+
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+.pb-7 {
+  padding-bottom: 7px !important;
+}
+
+.pb-14 {
+  padding-bottom: 14px !important;
+}
+
+p.fade {
+  position: relative;
+  max-height: 6.8em;
+  overflow: hidden;
+}
+p.fade:after {
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 5%;
+  height: 1.2em;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1) 50%
+  );
+}
+
+.full-image {
+  width: 100%;
+  height: auto;
+}
+
+.ui.inverted > .ui.modal > .close {
+  color: #d01919;
+}
+
+.public-DraftStyleDefault-block {
+  text-align: justify;
+}
+
+.text-break {
+  word-break: break-all;
+}
+
+.comment-section {
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+
+.black-text {
+  color: black !important;
+}
+
+.ui.search .prompt {
+  border-radius: 0.28571429rem;
+}
+
+.ui.search > .results {
+  width: inherit;
+  min-width: 100%;
+}
+
+.grey-label {
+  font-size: 0.85rem;
+  color: grey;
+  cursor: pointer;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+.ui[class*="vertically divided"].grid > .row:first-child > .column {
+  margin-top: 14px;
+}
+
+.ui.star.rating .icon:focus {
+  outline: none;
+}
+
+.review-score {
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-right: 2px;
+}
+
+.review-virtue {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 7px;
+  border-top: 1px solid #d01919;
+}
